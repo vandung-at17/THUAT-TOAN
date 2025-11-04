@@ -38,13 +38,13 @@ public class Main {
         Stopwatch stopwatch3 = Stopwatch.createStarted();
         MyBST myBST3 = new MyBST();
         myBST3.root = myBST3.insertIntoBST(myBST3.root,5);
-        myBST3.root = myBST3.insertIntoBST(myBST3.root,1);
+        myBST3.root = myBST3.insert(myBST3.root,1);
         myBST3.root = myBST3.insertIntoBST(myBST3.root,6);
-        myBST3.root = myBST3.insertIntoBST(myBST3.root,0);
+        myBST3.root = myBST3.insert(myBST3.root,0);
         myBST3.root = myBST3.insertIntoBST(myBST3.root,3);
-        myBST3.root = myBST3.insertIntoBST(myBST3.root,7);
+        myBST3.root = myBST3.insert(myBST3.root,7);
         myBST3.root = myBST3.insertIntoBST(myBST3.root,2);
-        myBST3.root = myBST3.insertIntoBST(myBST3.root,4);
+        myBST3.root = myBST3.insert(myBST3.root,4);
         myBST3.root = myBST3.insertIntoBST(myBST3.root,10);
         myBST3.root = myBST3.insert(myBST3.root,15);
         stopwatch3.stop();
